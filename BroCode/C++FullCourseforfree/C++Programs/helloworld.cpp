@@ -42,6 +42,30 @@ comment
   double gpa = 2.5;
   double temperature = 25.1;
 
-  std::cout << price;
+  // std::cout << price;
+  
+  // Single Character
+  
+  char grade = 'A';
+  char initial = 'B';
+  char currency = '$';
+  
+  // std::cout << price;
+
+  // Boolean (True or False)
+  bool student = true;
+  bool power = false;
+  bool forSale = true;
+
+  // String (objects that represent a sequence of text)
+  std::string name = "Save";
+  std::string day = "Tuesday";
+  std::string food = "Ramen";
+  std::string address = " 224 Somdet Chao Phraya";
+
+  // std::cout << "Hello " << name << '\n';
+  // std::cout << "You are " << age << " year old" << '\n';
+
+
   return 0;
 }
