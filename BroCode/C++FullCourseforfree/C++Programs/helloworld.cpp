@@ -1,4 +1,11 @@
 #include <iostream>
+#include <vector>
+
+// typedef std::vector<std::pair<std::string, int>> pairlist_t;
+// typedef std::string text_t;
+// typedef int number_t;
+using text_t = std::string;
+using number_t = int;
 
 namespace first{
   int x = 1;
@@ -39,31 +46,31 @@ comment
 
   // Integer (whole number)
 
-  int age = 23;
-  int year = 2025;
-  int days = 7;
+  // int age = 23;
+  // int year = 2025;
+  // int days = 7;
 
   // int days = 7.5; //Output will be 7 because it can't store .5
 
   // Double (number including decimal)
-  double price = 10.99;
-  double gpa = 2.5;
-  double temperature = 25.1;
+  // double price = 10.99;
+  // double gpa = 2.5;
+  // double temperature = 25.1;
 
   // std::cout << price;
   
   // Single Character
   
-  char grade = 'A';
-  char initial = 'B';
-  char currency = '$';
+  // char grade = 'A';
+  // char initial = 'B';
+  // char currency = '$';
   
   // std::cout << price;
 
   // Boolean (True or False)
-  bool student = true;
-  bool power = false;
-  bool forSale = true;
+  // bool student = true;
+  // bool power = false;
+  // bool forSale = true;
 
   // String (objects that represent a sequence of text)
   // std::string name = "Save";
@@ -80,34 +87,46 @@ comment
   // tells the compiler to prevent anything from modifying it
   // (read-only)
 
-  const double PI = 3.14159;
-  double radius = 10;
-  double circumference = 2 * PI * radius;
+  // const double PI = 3.14159;
+  // double radius = 10;
+  // double circumference = 2 * PI * radius;
 
   // std::cout << circumference << "cm";
 
-  const int LIGHT_SPEED = 299792458;
-  const int WIDTH = 1920;
-  const int HEIGHT = 1080;
+  // const int LIGHT_SPEED = 299792458;
+  // const int WIDTH = 1920;
+  // const int HEIGHT = 1080;
 
   // Namespaces
   // provides a solution for preventing name conflicts in large projects. Each entity needs a unique name. A namespace allows for identically named entities as long as the namespaces are different.
 
-  using namespace first;
+  // using namespace first;
 
   // int x = 0;
 
   // std::cout << x;
   // std::cout << second::x;
 
-  using namespace std::cout;
-  using namespace std::string;
+  // using namespace std::cout;
+  // using namespace std::string;
 
-  string name = "Save";
+  // string name = "Save";
 
-  cout << "Hello " << name;
+  // cout << "Hello " << name;
 
   // Typedef and typealiases
+
+  // typedef = reserved keyword used to create an additional name (alias) for another data type. New identifier for an existing type. Helps with readability and reduces typos. Use when there is a clear benefit. Replaced with 'using' (work better w/ templates)
+
+  // std::vector<std::pair<std::string, int>> pairlist;
+  // pairlist_t pairlist;
+
+  // std::string firstName;
+  text_t firstName = "Save";
+  number_t age = 23;
+
+  std::cout << firstName << "\n";
+  std::cout << age << "\n";
 
   return 0;
 }

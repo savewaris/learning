@@ -4,6 +4,45 @@ Welcome to my personal learning repository! I created this space to build a cons
 
 Consistency is the ultimate driver of progress, and this repo serves as my accountability log for daily commits, whether it's writing code, documenting system architectures, or practicing languages.
 
+---
+
+## 🗺️ Repository Map & Projects
+
+Below is the directory structure mapping out the courses and projects currently active in this repository:
+
+| Path | Course / Project | Tech Stack | Progress / Status |
+| :--- | :--- | :--- | :--- |
+| [BroCode/C++FullCourseforfree](file:///d:/save/coding/learning/BroCode/C++FullCourseforfree) | **C++ Full Course for Beginners** (Bro Code) | `C++`, `g++ (MinGW)` | 5 / 59 Topics Covered (~8.5%) |
+| [FrontendLab/FinanceSaasPlatform](file:///d:/save/coding/learning/FrontendLab/FinanceSaasPlatform) | **Finance SaaS Expense Tracker** | `Next.js 16`, `React 19`, `TailwindCSS 4`, `Clerk Auth`, `Express 5`, `MongoDB` | Active Development (In Progress) |
+| [ProgrammingWithMosh/JavaScriptCourseForBeginners](file:///d:/save/coding/learning/ProgrammingWithMosh/JavaScriptCourseForBeginners) | **JS Basics: My First Code** (Mosh) | `JavaScript (ES6)`, `HTML5` | Fundamentals Completed |
+
+---
+
+## 🗂️ Detailed Project Overview
+
+### 1. ⚙️ C++ Fundamentals
+- **Location:** [BroCode/C++FullCourseforfree](file:///d:/save/coding/learning/BroCode/C++FullCourseforfree)
+- **Goal:** Master core C++ concepts, compiler mechanics, syntax patterns, memory management, pointers, and object-oriented programming (OOP).
+- **Core Concepts Covered:** Namespaces, variable scopes, type aliases (`using`), basic arithmetic/datatypes.
+- **Reference:** [C++ README](file:///d:/save/coding/learning/BroCode/C++FullCourseforfree/README.md)
+
+### 2. 💳 Finance SaaS Platform
+- **Location:** [FrontendLab/FinanceSaasPlatform](file:///d:/save/coding/learning/FrontendLab/FinanceSaasPlatform)
+- **Goal:** Develop a full-featured, professional-grade Finance SaaS platform with a complete expense tracking system.
+- **Tech Stack & Tools:**
+  - **Frontend:** Next.js 16, React 19, TailwindCSS v4, Clerk Auth (Next.js SDK)
+  - **Backend:** Node.js, Express v5, MongoDB via Mongoose, Clerk Express SDK, Svix (for secure webhook events)
+  - **Language:** TypeScript (frontend & backend compilation)
+- **Reference:** [Finance SaaS README](file:///d:/save/coding/learning/FrontendLab/FinanceSaasPlatform/README.md) & [Expense Tracker Code](file:///d:/save/coding/learning/FrontendLab/FinanceSaasPlatform/fl-expense-tracker)
+
+### 3. 🌐 JavaScript Basics
+- **Location:** [ProgrammingWithMosh/JavaScriptCourseForBeginners](file:///d:/save/coding/learning/ProgrammingWithMosh/JavaScriptCourseForBeginners)
+- **Goal:** Learn JavaScript fundamentals, primitive vs reference types, DOM interaction basics, and functional programming concepts.
+- **Core Concepts Covered:** Primitive types (String, Number, Boolean, Null, Undefined), Dynamic Typing, Objects (Dot/Bracket Notation), Arrays, Functions (Performing tasks vs returning values).
+- **Reference:** [JavaScript README](file:///d:/save/coding/learning/ProgrammingWithMosh/JavaScriptCourseForBeginners/js-basics/README.md)
+
+---
+
 ## 🎯 Current Focus Areas
 
 - **Full-Stack Software Development:** Deepening expertise in JavaScript, React, Next.js, Node.js, Python, and SQL for professional project development.
