@@ -8,8 +8,8 @@ Welcome to my personal learning repository for mastering C++! This repository co
 *Keep track of learning journey, topics mastered, and upcoming lessons.*
 
 - **Current Status**: Learning C++ Fundamentals 📝
-- **Topics Covered**: `10` / `59`
-- **Completion Rate**: **~16.9%** 🟥🟧⬜⬜⬜⬜⬜⬜⬜⬜
+- **Topics Covered**: `11` / `59`
+- **Completion Rate**: **~18.6%** 🟥🟧⬜⬜⬜⬜⬜⬜⬜⬜
 
 ---
 
@@ -20,6 +20,8 @@ All C++ source files and compiled binaries are organized under the [C++Programs]
 - ⚙️ `helloworld.exe` - Compiled executable of the main program.
 - 📄 `HypotenbuseCalculatorPracticeProgram.cpp` - First practice application calculating the hypotenuse of a right-angled triangle.
 - ⚙️ `HypotenbuseCalculatorPracticeProgram.exe` - Compiled executable of the hypotenuse calculator program.
+- 📄 `ifStatement.cpp` - Introduction to conditional logic using `if`, `else if`, and `else` statements.
+- ⚙️ `ifStatement.exe` - Compiled executable of the if statement program.
 
 ---
 
@@ -58,7 +60,7 @@ Here is a checklist mapping all the topics from the course to track what has bee
 - [x] **10. Hypotenuse Calculator Program** 📐 — *First practice application*
 
 ### Phase 2: Control Flow & Logic
-- [ ] **11. If Statements** ❓ — *Conditional code execution*
+- [x] **11. If Statements** ❓ — *Conditional code execution*
 - [ ] **12. Switches** 🎛️ — *Multi-way branch conditions*
 - [ ] **13. Logical Operators** 👥 — *Combining conditions with `&&`, `||`, and `!`*
 - [ ] **14. Temperature Conversion Program** 🌡️ — *Practice logic building*
@@ -242,6 +244,31 @@ int main() {
     c = sqrt(pow(a, 2) + pow(b, 2));
 
     std::cout << "Side C: " << c << '\n';
+
+    return 0;
+}
+```
+
+### 8. If Statements
+If statements perform code conditionally. If the condition is true, the corresponding block executes. If not, C++ evaluates subsequent `else if` conditions, or defaults to the `else` block if present.
+
+```cpp
+#include <iostream>
+
+int main() {
+    int age;
+    std::cout << "Enter your age: ";
+    std::cin >> age;
+
+    if (age >= 100) {
+        std::cout << "You are too old to enter this site!";
+    } else if (age >= 18) {
+        std::cout << "Welcome to the site!";
+    } else if (age < 0) {
+        std::cout << "You haven't been born yet!";
+    } else {
+        std::cout << "You are not old enough to enter!";
+    }
 
     return 0;
 }
