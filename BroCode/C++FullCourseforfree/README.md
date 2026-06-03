@@ -8,8 +8,8 @@ Welcome to my personal learning repository for mastering C++! This repository co
 *Keep track of learning journey, topics mastered, and upcoming lessons.*
 
 - **Current Status**: Learning C++ Fundamentals 📝
-- **Topics Covered**: `7` / `59`
-- **Completion Rate**: **~11.9%** 🟥🟧⬜⬜⬜⬜⬜⬜⬜⬜
+- **Topics Covered**: `8` / `59`
+- **Completion Rate**: **~13.6%** 🟥🟧⬜⬜⬜⬜⬜⬜⬜⬜
 
 ---
 
@@ -51,7 +51,7 @@ Here is a checklist mapping all the topics from the course to track what has bee
 - [x] **05. Typedef & Type Aliases** 🏷️ — *Creating aliases with `typedef` and `using` keyword*
 - [x] **06. Arithmetic Operators** ➕ — *Mathematical operations in C++*
 - [x] **07. Type Conversion** 🔄 — *Implicit & explicit type casting*
-- [ ] **08. User Input** 📥 — *Reading user input with `std::cin` and `std::getline`*
+- [x] **08. User Input** 📥 — *Reading user input with `std::cin` and `std::getline`*
 - [ ] **09. Useful Math Related Functions** 🧮 — *Exploring standard math libraries*
 - [ ] **10. Hypotenuse Calculator Program** 📐 — *First practice application*
 
@@ -175,4 +175,21 @@ int correct = 8;
 int questions = 10;
 // Preceding questions with (double) to avoid integer division
 double score = correct / (double)questions * 100; // Returns 80%
+```
+
+### 5. User Input
+Reading input from the console using `std::cin` (extraction operator `>>`) and `std::getline()`.
+- **`std::cin >>`**: Reads input up to the first whitespace or newline.
+- **`std::getline(std::cin, var)`**: Reads an entire line of text (including spaces).
+- **`std::cin >> std::ws`**: Discards any leading whitespace (such as newlines left in the input buffer from previous reads) before reading with `getline()`.
+
+```cpp
+std::string name;
+int age;
+
+std::cout << "Enter age: ";
+std::cin >> age;
+
+std::cout << "Enter full name: ";
+std::getline(std::cin >> std::ws, name); // Discards newlines left in buffer
 ```

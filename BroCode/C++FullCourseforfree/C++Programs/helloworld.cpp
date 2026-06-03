@@ -181,11 +181,28 @@ comment
 
 // std::cout << (char)100;
 
-int correct = 8;
-int questions = 10;
-double score = correct / (double)questions * 100;
+// int correct = 8;
+// int questions = 10;
+// double score = correct / (double)questions * 100;
 
-std::cout << score << "%";
+// std::cout << score << "%";
+
+//User Input
+// cout << (insertion operator)
+// cin >> (extraction operator)
+
+std::string name;
+int age;
+
+std::cout << "What's your age?: ";
+std::cin >> age;
+
+std::cout << "What's your full name?: ";
+// std::cin >> name;
+std::getline(std::cin >> std::ws, name);
+
+std::cout << "Hello " << name << "\n";
+std::cout << "You are " << age << " years old";
 
 return 0;
 }
