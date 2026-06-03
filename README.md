@@ -12,41 +12,41 @@ Below is the directory structure mapping out the courses and projects currently 
 
 | Path | Course / Project | Tech Stack | Progress / Status |
 | :--- | :--- | :--- | :--- |
-| [BroCode/C++FullCourseforfree](file:///c:/save/coding/learning/BroCode/C++FullCourseforfree) | **C++ Full Course for Beginners** (Bro Code) | `C++`, `g++ (MinGW)` | 9 / 59 Topics Covered (~15.3%) |
-| [FrontendLab/FinanceSaasPlatform](file:///c:/save/coding/learning/FrontendLab/FinanceSaasPlatform) | **Finance SaaS Expense Tracker** | `Next.js 16`, `React 19`, `TailwindCSS 4`, `Clerk Auth`, `Express 5`, `MongoDB` | Active Development (In Progress) |
-| [JavaScriptMastery/SaasAppFullCourse2025](file:///c:/save/coding/learning/JavaScriptMastery/SaasAppFullCourse2025) | **SaaS App Full Course 2025** (JS Mastery) | `Next.js 15`, `React 19`, `TailwindCSS v4`, `TypeScript` | Setup Pending (Not Started) |
-| [ProgrammingWithMosh/JavaScriptCourseForBeginners](file:///c:/save/coding/learning/ProgrammingWithMosh/JavaScriptCourseForBeginners) | **JS Basics: My First Code** (Mosh) | `JavaScript (ES6)`, `HTML5` | Fundamentals Completed |
+| [BroCode/C++FullCourseforfree](file:///d:/save/coding/learning/BroCode/C++FullCourseforfree) | **C++ Full Course for Beginners** (Bro Code) | `C++`, `g++ (MinGW)` | 10 / 59 Topics Covered (~16.9%) |
+| [FrontendLab/FinanceSaasPlatform](file:///d:/save/coding/learning/FrontendLab/FinanceSaasPlatform) | **Finance SaaS Expense Tracker** | `Next.js 16`, `React 19`, `TailwindCSS 4`, `Clerk Auth`, `Express 5`, `MongoDB` | Active Development (In Progress) |
+| [JavaScriptMastery/SaasAppFullCourse2025](file:///d:/save/coding/learning/JavaScriptMastery/SaasAppFullCourse2025) | **SaaS App Full Course 2025** (JS Mastery) | `Next.js 15`, `React 19`, `TailwindCSS v4`, `TypeScript` | Setup Pending (Not Started) |
+| [ProgrammingWithMosh/JavaScriptCourseForBeginners](file:///d:/save/coding/learning/ProgrammingWithMosh/JavaScriptCourseForBeginners) | **JS Basics: My First Code** (Mosh) | `JavaScript (ES6)`, `HTML5` | Fundamentals Completed |
 
 ---
 
 ## 🗂️ Detailed Project Overview
 
 ### 1. ⚙️ C++ Fundamentals
-- **Location:** [BroCode/C++FullCourseforfree](file:///c:/save/coding/learning/BroCode/C++FullCourseforfree)
+- **Location:** [BroCode/C++FullCourseforfree](file:///d:/save/coding/learning/BroCode/C++FullCourseforfree)
 - **Goal:** Master core C++ concepts, compiler mechanics, syntax patterns, memory management, pointers, and object-oriented programming (OOP).
-- **Core Concepts Covered:** Variables & basic data types, const keyword, namespaces, typedefs & type aliases, arithmetic operators, type conversion, user input, useful math functions.
-- **Reference:** [C++ README](file:///c:/save/coding/learning/BroCode/C++FullCourseforfree/README.md)
+- **Core Concepts Covered:** Variables & basic data types, const keyword, namespaces, typedefs & type aliases, arithmetic operators, type conversion, user input, useful math functions, Hypotenuse Calculator program.
+- **Reference:** [C++ README](file:///d:/save/coding/learning/BroCode/C++FullCourseforfree/README.md)
 
 ### 2. 💳 Finance SaaS Platform
-- **Location:** [FrontendLab/FinanceSaasPlatform](file:///c:/save/coding/learning/FrontendLab/FinanceSaasPlatform)
+- **Location:** [FrontendLab/FinanceSaasPlatform](file:///d:/save/coding/learning/FrontendLab/FinanceSaasPlatform)
 - **Goal:** Develop a full-featured, professional-grade Finance SaaS platform with a complete expense tracking system.
 - **Tech Stack & Tools:**
   - **Frontend:** Next.js 16, React 19, TailwindCSS v4, Clerk Auth (Next.js SDK)
   - **Backend:** Node.js, Express v5, MongoDB via Mongoose, Clerk Express SDK, Svix (for secure webhook events)
   - **Language:** TypeScript (frontend & backend compilation)
-- **Reference:** [Finance SaaS README](file:///c:/save/coding/learning/FrontendLab/FinanceSaasPlatform/README.md) & [Expense Tracker Code](file:///c:/save/coding/learning/FrontendLab/FinanceSaasPlatform/fl-expense-tracker)
+- **Reference:** [Finance SaaS README](file:///d:/save/coding/learning/FrontendLab/FinanceSaasPlatform/README.md) & [Expense Tracker Code](file:///d:/save/coding/learning/FrontendLab/FinanceSaasPlatform/fl-expense-tracker)
 
 ### 3. 🚀 SaaS App Full Course 2025
-- **Location:** [JavaScriptMastery/SaasAppFullCourse2025](file:///c:/save/coding/learning/JavaScriptMastery/SaasAppFullCourse2025)
+- **Location:** [JavaScriptMastery/SaasAppFullCourse2025](file:///d:/save/coding/learning/JavaScriptMastery/SaasAppFullCourse2025)
 - **Goal:** Build a production-grade modern SaaS application using Next.js 15.
 - **Tech Stack & Tools:** Next.js 15, React 19, TailwindCSS v4, TypeScript, etc.
 - **Reference:** Directory currently empty (Setup Pending)
 
 ### 4. 🌐 JavaScript Basics
-- **Location:** [ProgrammingWithMosh/JavaScriptCourseForBeginners](file:///c:/save/coding/learning/ProgrammingWithMosh/JavaScriptCourseForBeginners)
+- **Location:** [ProgrammingWithMosh/JavaScriptCourseForBeginners](file:///d:/save/coding/learning/ProgrammingWithMosh/JavaScriptCourseForBeginners)
 - **Goal:** Learn JavaScript fundamentals, primitive vs reference types, DOM interaction basics, and functional programming concepts.
 - **Core Concepts Covered:** Primitive types (String, Number, Boolean, Null, Undefined), Dynamic Typing, Objects (Dot/Bracket Notation), Arrays, Functions (Performing tasks vs returning values).
-- **Reference:** [JavaScript README](file:///c:/save/coding/learning/ProgrammingWithMosh/JavaScriptCourseForBeginners/js-basics/README.md)
+- **Reference:** [JavaScript README](file:///d:/save/coding/learning/ProgrammingWithMosh/JavaScriptCourseForBeginners/js-basics/README.md)
 
 ---
 

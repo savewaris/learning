@@ -207,9 +207,9 @@ comment
 // Useful math related functions
 // https://www.cplusplus.com/reference/cmath/
 
-double x = 3;
-double y = 4;
-double z;
+// double x = 3;
+// double y = 4;
+// double z;
 
 // z = std::max(x, y);
 // z = std::min(x, y);
@@ -220,7 +220,7 @@ double z;
 // z = ceil(3.14);
 // z = floor(3.99);
 
-std::cout << z;
+// std::cout << z;
 
 return 0;
 }

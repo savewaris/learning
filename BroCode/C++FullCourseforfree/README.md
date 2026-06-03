@@ -8,16 +8,18 @@ Welcome to my personal learning repository for mastering C++! This repository co
 *Keep track of learning journey, topics mastered, and upcoming lessons.*
 
 - **Current Status**: Learning C++ Fundamentals 📝
-- **Topics Covered**: `9` / `59`
-- **Completion Rate**: **~15.3%** 🟥🟧⬜⬜⬜⬜⬜⬜⬜⬜
+- **Topics Covered**: `10` / `59`
+- **Completion Rate**: **~16.9%** 🟥🟧⬜⬜⬜⬜⬜⬜⬜⬜
 
 ---
 
 ## 🗂️ Repository Structure
 
-All C++ source files and compiled binaries are organized under the [C++Programs](file:///c:/save/coding/learning/BroCode/C++FullCourseforfree/C++Programs) directory:
+All C++ source files and compiled binaries are organized under the [C++Programs](file:///d:/save/coding/learning/BroCode/C++FullCourseforfree/C++Programs) directory:
 - 📄 `helloworld.cpp` - Main learning file covering basics, data types, const, namespaces, and typedefs.
 - ⚙️ `helloworld.exe` - Compiled executable of the main program.
+- 📄 `HypotenbuseCalculatorPracticeProgram.cpp` - First practice application calculating the hypotenuse of a right-angled triangle.
+- ⚙️ `HypotenbuseCalculatorPracticeProgram.exe` - Compiled executable of the hypotenuse calculator program.
 
 ---
 
@@ -53,7 +55,7 @@ Here is a checklist mapping all the topics from the course to track what has bee
 - [x] **07. Type Conversion** 🔄 — *Implicit & explicit type casting*
 - [x] **08. User Input** 📥 — *Reading user input with `std::cin` and `std::getline`*
 - [x] **09. Useful Math Related Functions** 🧮 — *Exploring standard math libraries*
-- [ ] **10. Hypotenuse Calculator Program** 📐 — *First practice application*
+- [x] **10. Hypotenuse Calculator Program** 📐 — *First practice application*
 
 ### Phase 2: Control Flow & Logic
 - [ ] **11. If Statements** ❓ — *Conditional code execution*
@@ -216,5 +218,31 @@ int main() {
     double max_val = std::max(x, y); // 4
     double power = pow(2, 4);       // 16
     double rounded = round(3.14);   // 3
+}
+```
+
+### 7. Hypotenuse Calculator Program
+A simple practice program that takes side A and side B of a right triangle as input and calculates side C (hypotenuse) using the Pythagorean theorem: $c = \sqrt{a^2 + b^2}$.
+
+```cpp
+#include <iostream>
+#include <cmath>
+
+int main() {
+    double a;
+    double b;
+    double c;
+
+    std::cout << "Enter side A: ";
+    std::cin >> a;
+
+    std::cout << "Enter side B: ";
+    std::cin >> b;
+
+    c = sqrt(pow(a, 2) + pow(b, 2));
+
+    std::cout << "Side C: " << c << '\n';
+
+    return 0;
 }
 ```
