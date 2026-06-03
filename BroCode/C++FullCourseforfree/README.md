@@ -8,8 +8,8 @@ Welcome to my personal learning repository for mastering C++! This repository co
 *Keep track of learning journey, topics mastered, and upcoming lessons.*
 
 - **Current Status**: Learning C++ Fundamentals 📝
-- **Topics Covered**: `8` / `59`
-- **Completion Rate**: **~13.6%** 🟥🟧⬜⬜⬜⬜⬜⬜⬜⬜
+- **Topics Covered**: `9` / `59`
+- **Completion Rate**: **~15.3%** 🟥🟧⬜⬜⬜⬜⬜⬜⬜⬜
 
 ---
 
@@ -52,7 +52,7 @@ Here is a checklist mapping all the topics from the course to track what has bee
 - [x] **06. Arithmetic Operators** ➕ — *Mathematical operations in C++*
 - [x] **07. Type Conversion** 🔄 — *Implicit & explicit type casting*
 - [x] **08. User Input** 📥 — *Reading user input with `std::cin` and `std::getline`*
-- [ ] **09. Useful Math Related Functions** 🧮 — *Exploring standard math libraries*
+- [x] **09. Useful Math Related Functions** 🧮 — *Exploring standard math libraries*
 - [ ] **10. Hypotenuse Calculator Program** 📐 — *First practice application*
 
 ### Phase 2: Control Flow & Logic
@@ -192,4 +192,29 @@ std::cin >> age;
 
 std::cout << "Enter full name: ";
 std::getline(std::cin >> std::ws, name); // Discards newlines left in buffer
+```
+
+### 6. Useful Math Related Functions
+C++ provides standard math functions by including the `<cmath>` header and using standard utility library functions:
+- **`std::max(x, y)`**: Returns the larger of two values.
+- **`std::min(x, y)`**: Returns the smaller of two values.
+- **`pow(base, exponent)`**: Raises a base to an exponent (e.g., `pow(2, 4)` is 16).
+- **`sqrt(x)`**: Computes the square root of a number.
+- **`abs(x)`**: Returns the absolute value of a number.
+- **`round(x)`**: Rounds a value to the nearest integer.
+- **`ceil(x)`**: Rounds a value up to the next integer.
+- **`floor(x)`**: Rounds a value down to the next integer.
+
+```cpp
+#include <iostream>
+#include <cmath>
+
+int main() {
+    double x = 3;
+    double y = 4;
+    
+    double max_val = std::max(x, y); // 4
+    double power = pow(2, 4);       // 16
+    double rounded = round(3.14);   // 3
+}
 ```

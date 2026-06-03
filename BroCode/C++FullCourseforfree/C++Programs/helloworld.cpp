@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-
+#include <cmath>
 // typedef std::vector<std::pair<std::string, int>> pairlist_t;
 // typedef std::string text_t;
 // typedef int number_t;
@@ -191,18 +191,36 @@ comment
 // cout << (insertion operator)
 // cin >> (extraction operator)
 
-std::string name;
-int age;
+// std::string name;
+// int age;
 
-std::cout << "What's your age?: ";
-std::cin >> age;
+// std::cout << "What's your age?: ";
+// std::cin >> age;
 
-std::cout << "What's your full name?: ";
+// std::cout << "What's your full name?: ";
 // std::cin >> name;
-std::getline(std::cin >> std::ws, name);
+// std::getline(std::cin >> std::ws, name);
 
-std::cout << "Hello " << name << "\n";
-std::cout << "You are " << age << " years old";
+// std::cout << "Hello " << name << "\n";
+// std::cout << "You are " << age << " years old";
+
+// Useful math related functions
+// https://www.cplusplus.com/reference/cmath/
+
+double x = 3;
+double y = 4;
+double z;
+
+// z = std::max(x, y);
+// z = std::min(x, y);
+// z = pow(2, 4);
+// z = sqrt(9);
+// z = abs(-3);
+// z = round(3.14);
+// z = ceil(3.14);
+// z = floor(3.99);
+
+std::cout << z;
 
 return 0;
 }
