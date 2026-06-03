@@ -8,14 +8,14 @@ Welcome to my personal learning repository for mastering C++! This repository co
 *Keep track of learning journey, topics mastered, and upcoming lessons.*
 
 - **Current Status**: Learning C++ Fundamentals 📝
-- **Topics Covered**: `5` / `59`
-- **Completion Rate**: **~8.5%** 🟥🟧⬜⬜⬜⬜⬜⬜⬜⬜
+- **Topics Covered**: `6` / `59`
+- **Completion Rate**: **~10.2%** 🟥🟧⬜⬜⬜⬜⬜⬜⬜⬜
 
 ---
 
 ## 🗂️ Repository Structure
 
-All C++ source files and compiled binaries are organized under the [C++Programs](file:///d:/save/coding/learning/BroCode/C++FullCourseforfree/C++Programs) directory:
+All C++ source files and compiled binaries are organized under the [C++Programs](file:///c:/save/coding/learning/BroCode/C++FullCourseforfree/C++Programs) directory:
 - 📄 `helloworld.cpp` - Main learning file covering basics, data types, const, namespaces, and typedefs.
 - ⚙️ `helloworld.exe` - Compiled executable of the main program.
 
@@ -49,7 +49,7 @@ Here is a checklist mapping all the topics from the course to track what has bee
 - [x] **03. Const Keyword** 🚫 — *Defining read-only constant variables*
 - [x] **04. Namespaces** 📛 — *Preventing name conflicts and using namespaces*
 - [x] **05. Typedef & Type Aliases** 🏷️ — *Creating aliases with `typedef` and `using` keyword*
-- [ ] **06. Arithmetic Operators** ➕ — *Mathematical operations in C++*
+- [x] **06. Arithmetic Operators** ➕ — *Mathematical operations in C++*
 - [ ] **07. Type Conversion** 🔄 — *Implicit & explicit type casting*
 - [ ] **08. User Input** 📥 — *Reading user input with `std::cin` and `std::getline`*
 - [ ] **09. Useful Math Related Functions** 🧮 — *Exploring standard math libraries*
@@ -141,3 +141,22 @@ using number_t = int;
 text_t name = "Save";
 number_t age = 23;
 ```
+
+### 3. Arithmetic Operators
+Arithmetic operators are used to perform common mathematical operations.
+```cpp
+int students = 20;
+
+// Addition, Subtraction, Multiplication, Division, and Modulus
+students = students + 1; // or students++ / students += 1
+students = students - 1; // or students-- / students -= 1
+students = students * 2; // or students *= 2
+students = students / 2; // or students /= 2
+
+int remainder = students % 3; // Returns remainder of division
+```
+
+**Operator Precedence (PEMDAS):**
+1. Parentheses `()`
+2. Multiplication `*` & Division `/`
+3. Addition `+` & Subtraction `-`

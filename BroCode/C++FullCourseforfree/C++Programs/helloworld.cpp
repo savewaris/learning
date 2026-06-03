@@ -122,11 +122,49 @@ comment
   // pairlist_t pairlist;
 
   // std::string firstName;
-  text_t firstName = "Save";
-  number_t age = 23;
+  // text_t firstName = "Save";
+  // number_t age = 23;
 
-  std::cout << firstName << "\n";
-  std::cout << age << "\n";
+  // std::cout << firstName << "\n";
+  // std::cout << age << "\n";
+
+  // Arithmetic Operators
+  // Return the result of a specific arithmetic operation (+ - */)
+
+  // int students = 20;
+
+// students = students + 1;
+// students += 1;
+// students++;
+
+// students = students - 1;
+// students -= 1;
+// students--;
+
+// students = students * 2;
+// students *= 2;
+
+// students = students / 2;
+// students /= 2;
+
+// double students = 20;
+// students /= 3;
+
+  // int remainder = students % 3;
+
+  // std::cout << remainder << "\n";
+
+  // parenthesis
+  // multiplication & division
+  // addition & subtraction
+
+  int students = 6 - 5 + 4 * 3 / 2;
+  // 6 - 5 + 12 / 2
+  // 6 - 5 + 6
+  // 1 + 6
+  // 7
+
+  std::cout << students << "\n";
 
   return 0;
 }
