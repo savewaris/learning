@@ -158,13 +158,34 @@ comment
   // multiplication & division
   // addition & subtraction
 
-  int students = 6 - 5 + 4 * 3 / 2;
+  // int students = 6 - 5 + 4 * 3 / 2;
   // 6 - 5 + 12 / 2
   // 6 - 5 + 6
   // 1 + 6
   // 7
 
-  std::cout << students << "\n";
+  // std::cout << students << "\n";
 
-  return 0;
+  // Type conversion
+  // Conversion a value of one data type tp another data type.
+  // Implicit = automatic
+  // Explicit = Precede value with new data type (int)
+
+// int x = 3.14;
+// double x = (int) 3.14;
+
+// std::cout << x;
+
+// char x = 100;
+// std::cout << x;
+
+// std::cout << (char)100;
+
+int correct = 8;
+int questions = 10;
+double score = correct / (double)questions * 100;
+
+std::cout << score << "%";
+
+return 0;
 }

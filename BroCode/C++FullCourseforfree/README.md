@@ -8,8 +8,8 @@ Welcome to my personal learning repository for mastering C++! This repository co
 *Keep track of learning journey, topics mastered, and upcoming lessons.*
 
 - **Current Status**: Learning C++ Fundamentals 📝
-- **Topics Covered**: `6` / `59`
-- **Completion Rate**: **~10.2%** 🟥🟧⬜⬜⬜⬜⬜⬜⬜⬜
+- **Topics Covered**: `7` / `59`
+- **Completion Rate**: **~11.9%** 🟥🟧⬜⬜⬜⬜⬜⬜⬜⬜
 
 ---
 
@@ -50,7 +50,7 @@ Here is a checklist mapping all the topics from the course to track what has bee
 - [x] **04. Namespaces** 📛 — *Preventing name conflicts and using namespaces*
 - [x] **05. Typedef & Type Aliases** 🏷️ — *Creating aliases with `typedef` and `using` keyword*
 - [x] **06. Arithmetic Operators** ➕ — *Mathematical operations in C++*
-- [ ] **07. Type Conversion** 🔄 — *Implicit & explicit type casting*
+- [x] **07. Type Conversion** 🔄 — *Implicit & explicit type casting*
 - [ ] **08. User Input** 📥 — *Reading user input with `std::cin` and `std::getline`*
 - [ ] **09. Useful Math Related Functions** 🧮 — *Exploring standard math libraries*
 - [ ] **10. Hypotenuse Calculator Program** 📐 — *First practice application*
@@ -160,3 +160,19 @@ int remainder = students % 3; // Returns remainder of division
 1. Parentheses `()`
 2. Multiplication `*` & Division `/`
 3. Addition `+` & Subtraction `-`
+
+### 4. Type Conversion
+Conversion of a value of one data type to another.
+- **Implicit**: Done automatically by the compiler.
+- **Explicit**: Done manually by preceding the value with the target data type in parentheses.
+
+```cpp
+// Implicit conversion
+double x = 3; // Converts int 3 to double 3.0
+
+// Explicit conversion (casting)
+int correct = 8;
+int questions = 10;
+// Preceding questions with (double) to avoid integer division
+double score = correct / (double)questions * 100; // Returns 80%
+```
