@@ -1,0 +1,1 @@
+Youtube Link: [Angular for Beginners Course [Full Front End Tutorial with TypeScript]](https://www.youtube.com/watch?v=3qBXWUpoPHo)
