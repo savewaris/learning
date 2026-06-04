@@ -24,6 +24,8 @@ All C++ source files and compiled binaries are organized under the [C++Programs]
 - ⚙️ `ifStatement.exe` - Compiled executable of the if statement program.
 - 📄 `switches.cpp` - Introduction to switch statements as an alternative to using many `else if` statements.
 - ⚙️ `switches.exe` - Compiled executable of the switches program.
+- 📄 `consoleCalculatorProgram.cpp` - Practice application building a basic arithmetic calculator using a `switch` statement.
+- ⚙️ `consoleCalculatorProgram.exe` - Compiled executable of the calculator program.
 
 ---
 
@@ -306,6 +308,57 @@ int main() {
         default:
             std::cout << "Please only enter in a letter grade (A-F)";
     }
+
+    return 0;
+}
+```
+
+### 10. Console Calculator Program
+A practice program that takes an arithmetic operator (`+`, `-`, `*`, `/`) and two numbers as input, and uses a `switch` statement to perform the selected calculation.
+
+```cpp
+#include <iostream>
+
+int main() {
+    char op;
+    double num1;
+    double num2;
+    double result;
+
+    std::cout << "********* Calculator *********\n";
+
+    std::cout << "Enter either (+ - * /): ";
+    std::cin >> op;
+
+    std::cout << "Enter #1: ";
+    std::cin >> num1;
+
+    std::cout << "Enter #2: ";
+    std::cin >> num2;
+
+    switch(op){
+        case '+':
+            result = num1 + num2;
+            std::cout << "Result: " << result << '\n';
+            break;
+        case '-':
+            result = num1 - num2;
+            std::cout << "Result: " << result << '\n';
+            break;
+        case '*':
+            result = num1 * num2;
+            std::cout << "Result: " << result << '\n';
+            break;
+        case '/':
+            result = num1 / num2;
+            std::cout << "Result: " << result << '\n';
+            break;
+        default:
+            std::cout << "Operation does not exist!" << '\n';
+            break;
+    }
+
+    std::cout << "******************************";
 
     return 0;
 }

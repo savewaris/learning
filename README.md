@@ -24,7 +24,7 @@ Below is the directory structure mapping out the courses and projects currently 
 ### 1. ⚙️ C++ Fundamentals
 - **Location:** [BroCode/C++FullCourseforfree](file:///d:/save/coding/learning/BroCode/C++FullCourseforfree)
 - **Goal:** Master core C++ concepts, compiler mechanics, syntax patterns, memory management, pointers, and object-oriented programming (OOP).
-- **Core Concepts Covered:** Variables & basic data types, const keyword, namespaces, typedefs & type aliases, arithmetic operators, type conversion, user input, useful math functions, Hypotenuse Calculator program, if statements, switches.
+- **Core Concepts Covered:** Variables & basic data types, const keyword, namespaces, typedefs & type aliases, arithmetic operators, type conversion, user input, useful math functions, Hypotenuse Calculator program, if statements, switches, Console Calculator program.
 - **Reference:** [C++ README](file:///d:/save/coding/learning/BroCode/C++FullCourseforfree/README.md)
 
 ### 2. 💳 Finance SaaS Platform
