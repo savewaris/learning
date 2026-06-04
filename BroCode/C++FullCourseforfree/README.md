@@ -8,8 +8,8 @@ Welcome to my personal learning repository for mastering C++! This repository co
 *Keep track of learning journey, topics mastered, and upcoming lessons.*
 
 - **Current Status**: Learning C++ Fundamentals 📝
-- **Topics Covered**: `11` / `59`
-- **Completion Rate**: **~18.6%** 🟥🟧⬜⬜⬜⬜⬜⬜⬜⬜
+- **Topics Covered**: `12` / `59`
+- **Completion Rate**: **~20.3%** 🟥🟧⬜⬜⬜⬜⬜⬜⬜⬜
 
 ---
 
@@ -22,6 +22,8 @@ All C++ source files and compiled binaries are organized under the [C++Programs]
 - ⚙️ `HypotenbuseCalculatorPracticeProgram.exe` - Compiled executable of the hypotenuse calculator program.
 - 📄 `ifStatement.cpp` - Introduction to conditional logic using `if`, `else if`, and `else` statements.
 - ⚙️ `ifStatement.exe` - Compiled executable of the if statement program.
+- 📄 `switches.cpp` - Introduction to switch statements as an alternative to using many `else if` statements.
+- ⚙️ `switches.exe` - Compiled executable of the switches program.
 
 ---
 
@@ -61,7 +63,7 @@ Here is a checklist mapping all the topics from the course to track what has bee
 
 ### Phase 2: Control Flow & Logic
 - [x] **11. If Statements** ❓ — *Conditional code execution*
-- [ ] **12. Switches** 🎛️ — *Multi-way branch conditions*
+- [x] **12. Switches** 🎛️ — *Multi-way branch conditions*
 - [ ] **13. Logical Operators** 👥 — *Combining conditions with `&&`, `||`, and `!`*
 - [ ] **14. Temperature Conversion Program** 🌡️ — *Practice logic building*
 - [ ] **15. Useful String Methods** 🧵 — *Manipulating text*
@@ -268,6 +270,41 @@ int main() {
         std::cout << "You haven't been born yet!";
     } else {
         std::cout << "You are not old enough to enter!";
+    }
+
+    return 0;
+}
+```
+
+### 9. Switches
+A switch is an alternative to using many `else if` statements. It compares a single value against multiple matching cases. A `break` statement is typically used to exit the switch block once a case is matched, preventing execution from "falling through" to subsequent cases. If no cases match, the optional `default` block executes.
+
+```cpp
+#include <iostream>
+
+int main() {
+    char grade;
+    std::cout << "What letter grade?: ";
+    std::cin >> grade;
+
+    switch(grade){
+        case 'A':
+            std::cout << "You did great!";
+            break;
+        case 'B':
+            std::cout << "You did good";
+            break;
+        case 'C':
+            std::cout << "You did okay";
+            break;
+        case 'D':
+            std::cout << "You did not good";
+            break;
+        case 'F':
+            std::cout << "YOU FAILED!";
+            break;
+        default:
+            std::cout << "Please only enter in a letter grade (A-F)";
     }
 
     return 0;
