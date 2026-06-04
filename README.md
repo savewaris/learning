@@ -14,7 +14,7 @@ Below is the directory structure mapping out the courses and projects currently 
 | :--- | :--- | :--- | :--- |
 | [BroCode/C++FullCourseforfree](file:///d:/save/coding/learning/BroCode/C++FullCourseforfree) | **C++ Full Course for Beginners** (Bro Code) | `C++`, `g++ (MinGW)` | 12 / 59 Topics Covered (~20.3%) |
 | [FrontendLab/FinanceSaasPlatform](file:///d:/save/coding/learning/FrontendLab/FinanceSaasPlatform) | **Finance SaaS Expense Tracker** | `Next.js 16`, `React 19`, `TailwindCSS 4`, `Clerk Auth`, `Express 5`, `MongoDB` | Active Development (In Progress) |
-| [freeCodeCamp.org/AngularForBeginnersCourse](file:///d:/save/coding/learning/freeCodeCamp.org/AngularForBeginnersCourse) | **Angular for Beginners Course** (freeCodeCamp) | `Angular`, `TypeScript` | Setup Pending (Not Started) |
+| [freeCodeCamp.org/AngularForBeginnersCourse](file:///d:/save/coding/learning/freeCodeCamp.org/AngularForBeginnersCourse) | **Angular for Beginners Course** (freeCodeCamp) | `Angular`, `TypeScript` | Learning TypeScript Basics (In Progress) |
 | [freeCodeCamp.org/GoProgramming](file:///d:/save/coding/learning/freeCodeCamp.org/GoProgramming) | **Go Programming Course** (freeCodeCamp) | `Go` | Setup Pending (Not Started) |
 | [ProgrammingWithMosh/JavaScriptCourseForBeginners](file:///d:/save/coding/learning/ProgrammingWithMosh/JavaScriptCourseForBeginners) | **JS Basics: My First Code** (Mosh) | `JavaScript (ES6)`, `HTML5` | Fundamentals Completed |
 
@@ -40,6 +40,7 @@ Below is the directory structure mapping out the courses and projects currently 
 ### 3. 🅰️ Angular for Beginners Course
 - **Location:** [freeCodeCamp.org/AngularForBeginnersCourse](file:///d:/save/coding/learning/freeCodeCamp.org/AngularForBeginnersCourse)
 - **Goal:** Learn frontend development with Angular and TypeScript.
+- **Core Concepts Covered:** TypeScript setup, Static vs Dynamic Typing (Type safety).
 - **Reference:** [Angular README](file:///d:/save/coding/learning/freeCodeCamp.org/AngularForBeginnersCourse/README.md)
 
 ### 4. 🐹 Go Programming
@@ -47,7 +48,7 @@ Below is the directory structure mapping out the courses and projects currently 
 - **Goal:** Learn the Go programming language (Golang) through project building.
 - **Reference:** [Go README](file:///d:/save/coding/learning/freeCodeCamp.org/GoProgramming/README.md)
 
-### 6. 🌐 JavaScript Basics
+### 5. 🌐 JavaScript Basics
 - **Location:** [ProgrammingWithMosh/JavaScriptCourseForBeginners](file:///d:/save/coding/learning/ProgrammingWithMosh/JavaScriptCourseForBeginners)
 - **Goal:** Learn JavaScript fundamentals, primitive vs reference types, DOM interaction basics, and functional programming concepts.
 - **Core Concepts Covered:** Primitive types (String, Number, Boolean, Null, Undefined), Dynamic Typing, Objects (Dot/Bracket Notation), Arrays, Functions (Performing tasks vs returning values).
