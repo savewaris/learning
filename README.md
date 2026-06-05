@@ -12,7 +12,7 @@ Below is the directory structure mapping out the courses and projects currently 
 
 | Path | Course / Project | Tech Stack | Progress / Status |
 | :--- | :--- | :--- | :--- |
-| [BroCode/C++FullCourseforfree](file:///d:/save/coding/learning/BroCode/C++FullCourseforfree) | **C++ Full Course for Beginners** (Bro Code) | `C++`, `g++ (MinGW)` | 13 / 60 Topics Covered (~21.7%) |
+| [BroCode/C++FullCourseforfree](file:///d:/save/coding/learning/BroCode/C++FullCourseforfree) | **C++ Full Course for Beginners** (Bro Code) | `C++`, `g++ (MinGW)` | 14 / 60 Topics Covered (~23.3%) |
 | [FrontendLab/FinanceSaasPlatform](file:///d:/save/coding/learning/FrontendLab/FinanceSaasPlatform) | **Finance SaaS Expense Tracker** | `Next.js 16`, `React 19`, `TailwindCSS 4`, `Clerk Auth`, `Express 5`, `MongoDB` | Active Development (In Progress) |
 | [freeCodeCamp.org/AngularForBeginnersCourse](file:///d:/save/coding/learning/freeCodeCamp.org/AngularForBeginnersCourse) | **Angular for Beginners Course** (freeCodeCamp) | `Angular`, `TypeScript` | Learning TypeScript Basics (In Progress) |
 | [freeCodeCamp.org/GoProgramming](file:///d:/save/coding/learning/freeCodeCamp.org/GoProgramming) | **Go Programming Course** (freeCodeCamp) | `Go` | Setup Pending (Not Started) |
@@ -25,7 +25,7 @@ Below is the directory structure mapping out the courses and projects currently 
 ### 1. ⚙️ C++ Fundamentals
 - **Location:** [BroCode/C++FullCourseforfree](file:///d:/save/coding/learning/BroCode/C++FullCourseforfree)
 - **Goal:** Master core C++ concepts, compiler mechanics, syntax patterns, memory management, pointers, and object-oriented programming (OOP).
-- **Core Concepts Covered:** Variables & basic data types, const keyword, namespaces, typedefs & type aliases, arithmetic operators, type conversion, user input, useful math functions, Hypotenuse Calculator program, if statements, switches, Console Calculator program, ternary operator.
+- **Core Concepts Covered:** Variables & basic data types, const keyword, namespaces, typedefs & type aliases, arithmetic operators, type conversion, user input, useful math functions, Hypotenuse Calculator program, if statements, switches, Console Calculator program, ternary operator, logical operators.
 - **Reference:** [C++ README](file:///d:/save/coding/learning/BroCode/C++FullCourseforfree/README.md)
 
 ### 2. 💳 Finance SaaS Platform

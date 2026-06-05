@@ -8,8 +8,8 @@ Welcome to my personal learning repository for mastering C++! This repository co
 *Keep track of learning journey, topics mastered, and upcoming lessons.*
 
 - **Current Status**: Learning C++ Fundamentals 📝
-- **Topics Covered**: `13` / `60`
-- **Completion Rate**: **~21.7%** 🟥🟧⬜⬜⬜⬜⬜⬜⬜⬜
+- **Topics Covered**: `14` / `60`
+- **Completion Rate**: **~23.3%** 🟥🟧⬜⬜⬜⬜⬜⬜⬜⬜
 
 ---
 
@@ -28,6 +28,8 @@ All C++ source files and compiled binaries are organized under the [C++Programs]
 - ⚙️ `consoleCalculatorProgram.exe` - Compiled executable of the calculator program.
 - 📄 `ternaryOperator.cpp` - Introduction to the ternary operator as a shorthand replacement for `if/else` statements.
 - ⚙️ `ternaryOperator.exe` - Compiled executable of the ternary operator program.
+- 📄 `logicalOperators.cpp` - Introduction to logical operators (`&&`, `||`, `!`) to combine or reverse conditional logic.
+- ⚙️ `logicalOperators.exe` - Compiled executable of the logical operators program.
 
 ---
 
@@ -69,7 +71,7 @@ Here is a checklist mapping all the topics from the course to track what has bee
 - [x] **11. If Statements** ❓ — *Conditional code execution*
 - [x] **12. Switches** 🎛️ — *Multi-way branch conditions*
 - [x] **13. Ternary Operator** ❓ — *Shorthand replacement to an if/else statement*
-- [ ] **14. Logical Operators** 👥 — *Combining conditions with `&&`, `||`, and `!`*
+- [x] **14. Logical Operators** 👥 — *Combining conditions with `&&`, `||`, and `!`*
 - [ ] **15. Temperature Conversion Program** 🌡️ — *Practice logic building*
 - [ ] **16. Useful String Methods** 🧵 — *Manipulating text*
 - [ ] **17. While Loops** 🔄 — *Looping based on a condition*
@@ -382,5 +384,37 @@ int main() {
 
     return 0;
 }
+```
+
+### 12. Logical Operators
+Logical operators evaluate expressions and return boolean values (`true`/`false`):
+- **`&&` (AND)**: Returns true only if both conditions are true.
+- **`||` (OR)**: Returns true if at least one condition is true.
+- **`!` (NOT)**: Inverts the boolean value.
+
+```cpp
+#include <iostream>
+
+int main() {
+    int temp = 25;
+    bool sunny = false;
+
+    // OR Operator
+    if(temp <= 0 || temp >= 30){
+        std::cout << "The temperature is bad!\n";
+    } else {
+        std::cout << "The temperature is good!\n";
+    }
+
+    // NOT Operator
+    if(!sunny){ 
+        std::cout << "It is cloudy outside!";
+    } else {
+        std::cout << "It is sunny outside!";
+    }
+
+    return 0;
+}
+```
 ```
 ```
