@@ -8,8 +8,8 @@ Welcome to my personal learning repository for mastering C++! This repository co
 *Keep track of learning journey, topics mastered, and upcoming lessons.*
 
 - **Current Status**: Learning C++ Fundamentals 📝
-- **Topics Covered**: `12` / `59`
-- **Completion Rate**: **~20.3%** 🟥🟧⬜⬜⬜⬜⬜⬜⬜⬜
+- **Topics Covered**: `13` / `60`
+- **Completion Rate**: **~21.7%** 🟥🟧⬜⬜⬜⬜⬜⬜⬜⬜
 
 ---
 
@@ -26,6 +26,8 @@ All C++ source files and compiled binaries are organized under the [C++Programs]
 - ⚙️ `switches.exe` - Compiled executable of the switches program.
 - 📄 `consoleCalculatorProgram.cpp` - Practice application building a basic arithmetic calculator using a `switch` statement.
 - ⚙️ `consoleCalculatorProgram.exe` - Compiled executable of the calculator program.
+- 📄 `ternaryOperator.cpp` - Introduction to the ternary operator as a shorthand replacement for `if/else` statements.
+- ⚙️ `ternaryOperator.exe` - Compiled executable of the ternary operator program.
 
 ---
 
@@ -66,61 +68,62 @@ Here is a checklist mapping all the topics from the course to track what has bee
 ### Phase 2: Control Flow & Logic
 - [x] **11. If Statements** ❓ — *Conditional code execution*
 - [x] **12. Switches** 🎛️ — *Multi-way branch conditions*
-- [ ] **13. Logical Operators** 👥 — *Combining conditions with `&&`, `||`, and `!`*
-- [ ] **14. Temperature Conversion Program** 🌡️ — *Practice logic building*
-- [ ] **15. Useful String Methods** 🧵 — *Manipulating text*
-- [ ] **16. While Loops** 🔄 — *Looping based on a condition*
-- [ ] **17. Do While Loops** 🔄 — *Executing code at least once before testing condition*
-- [ ] **18. For Loops** 🔄 — *Looping a set number of times*
-- [ ] **19. Break & Continue** 🏃 — *Controlling loop flow*
-- [ ] **20. Nested Loops** 🔄 — *Loops within loops*
+- [x] **13. Ternary Operator** ❓ — *Shorthand replacement to an if/else statement*
+- [ ] **14. Logical Operators** 👥 — *Combining conditions with `&&`, `||`, and `!`*
+- [ ] **15. Temperature Conversion Program** 🌡️ — *Practice logic building*
+- [ ] **16. Useful String Methods** 🧵 — *Manipulating text*
+- [ ] **17. While Loops** 🔄 — *Looping based on a condition*
+- [ ] **18. Do While Loops** 🔄 — *Executing code at least once before testing condition*
+- [ ] **19. For Loops** 🔄 — *Looping a set number of times*
+- [ ] **20. Break & Continue** 🏃 — *Controlling loop flow*
+- [ ] **21. Nested Loops** 🔄 — *Loops within loops*
 
 ### Phase 3: Games & Practice
-- [ ] **21. Random Number Generator** 🎲 — *Generating random integers*
-- [ ] **22. Random Event Generator** 🎲 — *Simulating random choices*
-- [ ] **23. Number Guessing Game** 🔢 — *Building a text-based guesser*
-- [ ] **24. User Defined Functions** 📞 — *Writing reusable code blocks*
-- [ ] **25. Return Keyword** ↩️ — *Returning values from functions*
-- [ ] **26. Overloaded Functions** 🔄 — *Multiple functions with the same name*
-- [ ] **27. Variable Scope** 🌐 — *Local vs. global scope variables*
-- [ ] **28. Banking Practice Program** 🏦 — *Simulating a bank account ledger*
-- [ ] **29. Rock Paper Scissors Game** 🪨 — *Classic game implementation*
+- [ ] **22. Random Number Generator** 🎲 — *Generating random integers*
+- [ ] **23. Random Event Generator** 🎲 — *Simulating random choices*
+- [ ] **24. Number Guessing Game** 🔢 — *Building a text-based guesser*
+- [ ] **25. User Defined Functions** 📞 — *Writing reusable code blocks*
+- [ ] **26. Return Keyword** ↩️ — *Returning values from functions*
+- [ ] **27. Overloaded Functions** 🔄 — *Multiple functions with the same name*
+- [ ] **28. Variable Scope** 🌐 — *Local vs. global scope variables*
+- [ ] **29. Banking Practice Program** 🏦 — *Simulating a bank account ledger*
+- [ ] **30. Rock Paper Scissors Game** 🪨 — *Classic game implementation*
 
 ### Phase 4: Data Structures & Advanced Arrays
-- [ ] **30. Arrays** 📊 — *Storing multiple values of the same type*
-- [ ] **31. Sizeof Operator** 📏 — *Determining memory size in bytes*
-- [ ] **32. Iterate Over an Array** 🔄 — *Looping through array elements*
-- [ ] **33. Foreach Loop** 🔄 — *Syntactic sugar for array iteration*
-- [ ] **34. Pass Array to a Function** 📥 — *Array parameter behaviors*
-- [ ] **35. Search an Array** 🔍 — *Searching for values in datasets*
-- [ ] **36. Sort an Array** 🔀 — *Sorting techniques*
-- [ ] **37. Fill Function** 🧪 — *Filling blocks of memory*
-- [ ] **38. Fill an Array with User Input** 📥 — *Dynamic manual array filling*
-- [ ] **39. Multidimensional Arrays** 📊 — *Grid structures / matrices*
-- [ ] **40. Quiz Game** 📝 — *Consolidated practice trivia game*
+- [ ] **31. Arrays** 📊 — *Storing multiple values of the same type*
+- [ ] **32. Sizeof Operator** 📏 — *Determining memory size in bytes*
+- [ ] **33. Iterate Over an Array** 🔄 — *Looping through array elements*
+- [ ] **34. Foreach Loop** 🔄 — *Syntactic sugar for array iteration*
+- [ ] **35. Pass Array to a Function** 📥 — *Array parameter behaviors*
+- [ ] **36. Search an Array** 🔍 — *Searching for values in datasets*
+- [ ] **37. Sort an Array** 🔀 — *Sorting techniques*
+- [ ] **38. Fill Function** 🧪 — *Filling blocks of memory*
+- [ ] **39. Fill an Array with User Input** 📥 — *Dynamic manual array filling*
+- [ ] **40. Multidimensional Arrays** 📊 — *Grid structures / matrices*
+- [ ] **41. Quiz Game** 📝 — *Consolidated practice trivia game*
 
 ### Phase 5: Memory Management & Pointers
-- [ ] **41. Memory Addresses** 📍 — *Locating variables in RAM*
-- [ ] **42. Pass by Value vs Pass by Reference** 🔄 — *Modifying arguments*
-- [ ] **43. Const Parameters** 🚫 — *Ensuring functions do not alter referenced values*
-- [ ] **44. Credit Card Validator Program** 💳 — *Implementing Luhn's algorithm*
-- [ ] **45. Pointers** 👈 — *Variables storing memory addresses*
-- [ ] **46. Null Pointers** 🚫 — *Safe pointer initialization and null checking*
-- [ ] **47. Tic Tac Toe Game** ❌ — *Full-fledged interactive grid game*
-- [ ] **48. Dynamic Memory** 🧠 — *Heap allocation using `new` and `delete`*
-- [ ] **49. Recursion** 🔄 — *Functions calling themselves*
-- [ ] **50. Function Templates** 🧪 — *Generic programming*
+- [ ] **42. Memory Addresses** 📍 — *Locating variables in RAM*
+- [ ] **43. Pass by Value vs Pass by Reference** 🔄 — *Modifying arguments*
+- [ ] **44. Const Parameters** 🚫 — *Ensuring functions do not alter referenced values*
+- [ ] **45. Credit Card Validator Program** 💳 — *Implementing Luhn's algorithm*
+- [ ] **46. Pointers** 👈 — *Variables storing memory addresses*
+- [ ] **47. Null Pointers** 🚫 — *Safe pointer initialization and null checking*
+- [ ] **48. Tic Tac Toe Game** ❌ — *Full-fledged interactive grid game*
+- [ ] **49. Dynamic Memory** 🧠 — *Heap allocation using `new` and `delete`*
+- [ ] **50. Recursion** 🔄 — *Functions calling themselves*
+- [ ] **51. Function Templates** 🧪 — *Generic programming*
 
 ### Phase 6: Structs, Enums, & OOP
-- [ ] **51. Structs** 🧱 — *Custom grouping of variables*
-- [ ] **52. Pass Structs as Arguments** 📥 — *Using structures in functions*
-- [ ] **53. Enums** 📊 — *User-defined types with named integer constants*
-- [ ] **54. Object Oriented Programming (OOP)** 🏠 — *Introduction to OOP principles*
-- [ ] **55. Objects** 👥 — *Instantiating class instances*
-- [ ] **56. Constructors** 🏗️ — *Object initialization*
-- [ ] **57. Constructor Overloading** 🏗️ — *Multiple initialization behaviors*
-- [ ] **58. Getters & Setters** 🔒 — *Data encapsulation*
-- [ ] **59. Inheritance** 🧬 — *Reusing parent class behaviors*
+- [ ] **52. Structs** 🧱 — *Custom grouping of variables*
+- [ ] **53. Pass Structs as Arguments** 📥 — *Using structures in functions*
+- [ ] **54. Enums** 📊 — *User-defined types with named integer constants*
+- [ ] **55. Object Oriented Programming (OOP)** 🏠 — *Introduction to OOP principles*
+- [ ] **56. Objects** 👥 — *Instantiating class instances*
+- [ ] **57. Constructors** 🏗️ — *Object initialization*
+- [ ] **58. Constructor Overloading** 🏗️ — *Multiple initialization behaviors*
+- [ ] **59. Getters & Setters** 🔒 — *Data encapsulation*
+- [ ] **60. Inheritance** 🧬 — *Reusing parent class behaviors*
 
 ---
 
@@ -362,4 +365,22 @@ int main() {
 
     return 0;
 }
+```
+
+### 11. Ternary Operator
+The ternary operator `?:` is a shorthand replacement for an `if/else` statement.
+Syntax: `condition ? expression1 : expression2;`
+
+```cpp
+#include <iostream>
+
+int main() {
+    bool hungry = false;
+
+    // hungry ? std::cout << "You are hungry" : std::cout << "You are full";
+    std::cout << (hungry ? "You are hungry" : "You are full");
+
+    return 0;
+}
+```
 ```
