@@ -8,8 +8,8 @@ Welcome to my personal learning repository for mastering C++! This repository co
 *Keep track of learning journey, topics mastered, and upcoming lessons.*
 
 - **Current Status**: Learning C++ Fundamentals 📝
-- **Topics Covered**: `15` / `60`
-- **Completion Rate**: **~25.0%** 🟥🟧🟨⬜⬜⬜⬜⬜⬜⬜
+- **Topics Covered**: `16` / `60`
+- **Completion Rate**: **~26.7%** 🟥🟧🟨⬜⬜⬜⬜⬜⬜⬜
 
 ---
 
@@ -32,6 +32,8 @@ All C++ source files and compiled binaries are organized under the [C++Programs]
 - ⚙️ `logicalOperators.exe` - Compiled executable of the logical operators program.
 - 📄 `temperatureConversionProgram.cpp` - Practice application building a temperature conversion tool (Celsius <-> Fahrenheit).
 - ⚙️ `temperatureConversionProgram.exe` - Compiled executable of the temperature conversion program.
+- 📄 `usefulStringMethods.cpp` - Exploration of standard library string methods for manipulation and inspection.
+- ⚙️ `usefulStringMethods.exe` - Compiled executable of the string methods program.
 
 ---
 
@@ -75,7 +77,7 @@ Here is a checklist mapping all the topics from the course to track what has bee
 - [x] **13. Ternary Operator** ❓ — *Shorthand replacement to an if/else statement*
 - [x] **14. Logical Operators** 👥 — *Combining conditions with `&&`, `||`, and `!`*
 - [x] **15. Temperature Conversion Program** 🌡️ — *Practice logic building*
-- [ ] **16. Useful String Methods** 🧵 — *Manipulating text*
+- [x] **16. Useful String Methods** 🧵 — *Manipulating text*
 - [ ] **17. While Loops** 🔄 — *Looping based on a condition*
 - [ ] **18. Do While Loops** 🔄 — *Executing code at least once before testing condition*
 - [ ] **19. For Loops** 🔄 — *Looping a set number of times*
@@ -450,4 +452,35 @@ int main() {
 
     return 0;
 }
+```
+
+### 14. Useful String Methods
+C++ `std::string` provides several useful methods for text manipulation:
+- **`length()`**: Returns the number of characters in the string.
+- **`empty()`**: Returns `true` if the string is empty.
+- **`clear()`**: Clears all characters from the string.
+- **`append(str)`**: Appends another string to the end.
+- **`at(index)`**: Returns the character at the specified index.
+- **`insert(index, str)`**: Inserts a string at the specified index.
+- **`find(char/str)`**: Finds the index of the first occurrence of a character or substring.
+- **`erase(start, count)`**: Erases a substring of characters starting from a given index.
+
+```cpp
+#include <iostream>
+
+int main() {
+    std::string name = "Save";
+
+    std::cout << name.length(); // 4
+    std::cout << name.empty();  // 0 (false)
+
+    name.append("@gmail.com"); // "Save@gmail.com"
+    std::cout << name.at(0);     // 'S'
+
+    name.insert(0, "@");       // "@Save@gmail.com"
+    name.erase(0, 3);          // "ve@gmail.com"
+
+    return 0;
+}
+```
 ```
