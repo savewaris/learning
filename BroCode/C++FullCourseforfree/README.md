@@ -8,8 +8,8 @@ Welcome to my personal learning repository for mastering C++! This repository co
 *Keep track of learning journey, topics mastered, and upcoming lessons.*
 
 - **Current Status**: Learning C++ Fundamentals 📝
-- **Topics Covered**: `14` / `60`
-- **Completion Rate**: **~23.3%** 🟥🟧⬜⬜⬜⬜⬜⬜⬜⬜
+- **Topics Covered**: `15` / `60`
+- **Completion Rate**: **~25.0%** 🟥🟧🟨⬜⬜⬜⬜⬜⬜⬜
 
 ---
 
@@ -30,6 +30,8 @@ All C++ source files and compiled binaries are organized under the [C++Programs]
 - ⚙️ `ternaryOperator.exe` - Compiled executable of the ternary operator program.
 - 📄 `logicalOperators.cpp` - Introduction to logical operators (`&&`, `||`, `!`) to combine or reverse conditional logic.
 - ⚙️ `logicalOperators.exe` - Compiled executable of the logical operators program.
+- 📄 `temperatureConversionProgram.cpp` - Practice application building a temperature conversion tool (Celsius <-> Fahrenheit).
+- ⚙️ `temperatureConversionProgram.exe` - Compiled executable of the temperature conversion program.
 
 ---
 
@@ -72,7 +74,7 @@ Here is a checklist mapping all the topics from the course to track what has bee
 - [x] **12. Switches** 🎛️ — *Multi-way branch conditions*
 - [x] **13. Ternary Operator** ❓ — *Shorthand replacement to an if/else statement*
 - [x] **14. Logical Operators** 👥 — *Combining conditions with `&&`, `||`, and `!`*
-- [ ] **15. Temperature Conversion Program** 🌡️ — *Practice logic building*
+- [x] **15. Temperature Conversion Program** 🌡️ — *Practice logic building*
 - [ ] **16. Useful String Methods** 🧵 — *Manipulating text*
 - [ ] **17. While Loops** 🔄 — *Looping based on a condition*
 - [ ] **18. Do While Loops** 🔄 — *Executing code at least once before testing condition*
@@ -416,5 +418,36 @@ int main() {
     return 0;
 }
 ```
-```
+
+### 13. Temperature Conversion Program
+A practice application that converts temperatures between Celsius and Fahrenheit based on user input.
+
+```cpp
+#include <iostream>
+
+int main() {
+    double temp;
+    char unit;
+
+    std::cout << "what unit would you like to convert to (F/C): ";
+    std::cin >> unit;
+
+    if(unit == 'F' || unit == 'f'){
+        std::cout << "Enter the temperature in Celsius: ";
+        std::cin >> temp;
+        temp = (1.8 * temp) + 32.0;
+        std::cout << "Temperature is: " << temp << "F\n";
+    }
+    else if(unit == 'C' || unit == 'c'){
+        std::cout << "Enter the temperature in Fahrenheit: ";
+        std::cin >> temp;
+        temp = (temp - 32) / 1.8;
+        std::cout << "Temperature is: " << temp << "C\n";
+    }
+    else {
+        std::cout << "Please enter in only C or F\n";
+    }
+
+    return 0;
+}
 ```
