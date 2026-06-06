@@ -8,8 +8,8 @@ Welcome to my personal learning repository for mastering C++! This repository co
 *Keep track of learning journey, topics mastered, and upcoming lessons.*
 
 - **Current Status**: Learning C++ Fundamentals 📝
-- **Topics Covered**: `16` / `60`
-- **Completion Rate**: **~26.7%** 🟥🟧🟨⬜⬜⬜⬜⬜⬜⬜
+- **Topics Covered**: `17` / `60`
+- **Completion Rate**: **~28.3%** 🟥🟧🟨⬜⬜⬜⬜⬜⬜⬜
 
 ---
 
@@ -34,6 +34,8 @@ All C++ source files and compiled binaries are organized under the [C++Programs]
 - ⚙️ `temperatureConversionProgram.exe` - Compiled executable of the temperature conversion program.
 - 📄 `usefulStringMethods.cpp` - Exploration of standard library string methods for manipulation and inspection.
 - ⚙️ `usefulStringMethods.exe` - Compiled executable of the string methods program.
+- 📄 `whileLoops.cpp` - Introduction to `while` loops for iterating based on a condition and infinite loops.
+- ⚙️ `whileLoops.exe` - Compiled executable of the while loops program.
 
 ---
 
@@ -78,7 +80,7 @@ Here is a checklist mapping all the topics from the course to track what has bee
 - [x] **14. Logical Operators** 👥 — *Combining conditions with `&&`, `||`, and `!`*
 - [x] **15. Temperature Conversion Program** 🌡️ — *Practice logic building*
 - [x] **16. Useful String Methods** 🧵 — *Manipulating text*
-- [ ] **17. While Loops** 🔄 — *Looping based on a condition*
+- [x] **17. While Loops** 🔄 — *Looping based on a condition*
 - [ ] **18. Do While Loops** 🔄 — *Executing code at least once before testing condition*
 - [ ] **19. For Loops** 🔄 — *Looping a set number of times*
 - [ ] **20. Break & Continue** 🏃 — *Controlling loop flow*
@@ -483,4 +485,31 @@ int main() {
     return 0;
 }
 ```
+
+### 15. While Loops
+A `while` loop executes a block of code repeatedly as long as a specified condition remains true. It tests the condition before executing the loop body. If the condition is initially false, the loop body does not execute.
+
+If the condition always evaluates to true (e.g. `while(true)` or `while(1==1)`), it creates an infinite loop.
+
+```cpp
+#include <iostream>
+
+int main() {
+    std::string name;
+
+    // Standard while loop to prompt user until they enter a name
+    while(name.empty()) {
+        std::cout << "Enter your name: ";
+        std::getline(std::cin, name);
+    }
+
+    std::cout << "Hello " << name << '\n';
+
+    // Infinite loop example:
+    // while(true) {
+    //     std::cout << "HELP! I'M STUCK IN AN INFINITE LOOP";
+    // }
+
+    return 0;
+}
 ```
