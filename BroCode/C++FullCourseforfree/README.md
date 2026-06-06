@@ -8,8 +8,8 @@ Welcome to my personal learning repository for mastering C++! This repository co
 *Keep track of learning journey, topics mastered, and upcoming lessons.*
 
 - **Current Status**: Learning C++ Fundamentals 📝
-- **Topics Covered**: `20` / `60`
-- **Completion Rate**: **~33.3%** 🟥🟧🟨⬜⬜⬜⬜⬜⬜⬜
+- **Topics Covered**: `21` / `60`
+- **Completion Rate**: **35.0%** 🟥🟧🟨🟩⬜⬜⬜⬜⬜⬜
 
 ---
 
@@ -42,6 +42,8 @@ All C++ source files and compiled binaries are organized under the [C++Programs]
 - ⚙️ `forLoops.exe` - Compiled executable of the for loops program.
 - 📄 `breakContinue.cpp` - Introduction to `break` and `continue` statements for controlling loop flow.
 - ⚙️ `breakContinue.exe` - Compiled executable of the break and continue program.
+- 📄 `nestedLoops.cpp` - Introduction to nested loops (loops inside other loops).
+- ⚙️ `nestedLoops.exe` - Compiled executable of the nested loops program.
 
 ---
 
@@ -90,7 +92,7 @@ Here is a checklist mapping all the topics from the course to track what has bee
 - [x] **18. Do While Loops** 🔄 — *Executing code at least once before testing condition*
 - [x] **19. For Loops** 🔄 — *Looping a set number of times*
 - [x] **20. Break & Continue** 🏃 — *Controlling loop flow*
-- [ ] **21. Nested Loops** 🔄 — *Loops within loops*
+- [x] **21. Nested Loops** 🔄 — *Loops within loops*
 
 ### Phase 3: Games & Practice
 - [ ] **22. Random Number Generator** 🎲 — *Generating random integers*
@@ -568,6 +570,39 @@ int main() {
             continue;
         }
         std::cout << i << '\n';
+    }
+
+    return 0;
+}
+```
+
+### 19. Nested Loops
+A nested loop is a loop inside another loop. The inner loop completes all of its iterations for every single iteration of the outer loop.
+
+```cpp
+#include <iostream>
+
+int main() {
+    int rows;
+    int columns;
+    char symbol;
+
+    std::cout << "How many rows?: ";
+    std::cin >> rows;
+
+    std::cout << "How many Columns?: ";
+    std::cin >> columns;
+    
+    std::cout << "Enter a symbol to use: ";
+    std::cin >> symbol;
+
+    // Outer loop
+    for (int i = 1; i <= rows; i++) {
+        // Inner loop
+        for (int j = 1; j <= columns; j++) {
+            std::cout << symbol;
+        }
+        std::cout << '\n';
     }
 
     return 0;
