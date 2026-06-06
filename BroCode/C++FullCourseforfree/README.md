@@ -8,8 +8,8 @@ Welcome to my personal learning repository for mastering C++! This repository co
 *Keep track of learning journey, topics mastered, and upcoming lessons.*
 
 - **Current Status**: Learning C++ Fundamentals 📝
-- **Topics Covered**: `19` / `60`
-- **Completion Rate**: **~31.7%** 🟥🟧🟨⬜⬜⬜⬜⬜⬜⬜
+- **Topics Covered**: `20` / `60`
+- **Completion Rate**: **~33.3%** 🟥🟧🟨⬜⬜⬜⬜⬜⬜⬜
 
 ---
 
@@ -40,6 +40,8 @@ All C++ source files and compiled binaries are organized under the [C++Programs]
 - ⚙️ `doWhileLoops.exe` - Compiled executable of the do while loops program.
 - 📄 `forLoops.cpp` - Introduction to `for` loops for iterating a set number of times.
 - ⚙️ `forLoops.exe` - Compiled executable of the for loops program.
+- 📄 `breakContinue.cpp` - Introduction to `break` and `continue` statements for controlling loop flow.
+- ⚙️ `breakContinue.exe` - Compiled executable of the break and continue program.
 
 ---
 
@@ -87,7 +89,7 @@ Here is a checklist mapping all the topics from the course to track what has bee
 - [x] **17. While Loops** 🔄 — *Looping based on a condition*
 - [x] **18. Do While Loops** 🔄 — *Executing code at least once before testing condition*
 - [x] **19. For Loops** 🔄 — *Looping a set number of times*
-- [ ] **20. Break & Continue** 🏃 — *Controlling loop flow*
+- [x] **20. Break & Continue** 🏃 — *Controlling loop flow*
 - [ ] **21. Nested Loops** 🔄 — *Loops within loops*
 
 ### Phase 3: Games & Practice
@@ -548,10 +550,26 @@ int main() {
         std::cout << i << '\n';
     }
 
-    std::cout << "Happy New Year!\n";
-
     return 0;
 }
 ```
-```
+
+### 18. Break & Continue
+- **`break`**: Immediately exits/breaks out of the loop.
+- **`continue`**: Skips the current iteration of the loop and moves to the next iteration.
+
+```cpp
+#include <iostream>
+
+int main() {
+    // Skips 13, prints numbers from 1 to 20
+    for (int i = 1; i <= 20; i++) {
+        if (i == 13) {
+            continue;
+        }
+        std::cout << i << '\n';
+    }
+
+    return 0;
+}
 ```
