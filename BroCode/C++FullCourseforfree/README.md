@@ -8,8 +8,8 @@ Welcome to my personal learning repository for mastering C++! This repository co
 *Keep track of learning journey, topics mastered, and upcoming lessons.*
 
 - **Current Status**: Learning C++ Fundamentals 📝
-- **Topics Covered**: `17` / `60`
-- **Completion Rate**: **~28.3%** 🟥🟧🟨⬜⬜⬜⬜⬜⬜⬜
+- **Topics Covered**: `18` / `60`
+- **Completion Rate**: **30.0%** 🟥🟧🟨⬜⬜⬜⬜⬜⬜⬜
 
 ---
 
@@ -36,6 +36,8 @@ All C++ source files and compiled binaries are organized under the [C++Programs]
 - ⚙️ `usefulStringMethods.exe` - Compiled executable of the string methods program.
 - 📄 `whileLoops.cpp` - Introduction to `while` loops for iterating based on a condition and infinite loops.
 - ⚙️ `whileLoops.exe` - Compiled executable of the while loops program.
+- 📄 `doWhileLoops.cpp` - Introduction to `do while` loops which execute a block of code at least once before testing a condition.
+- ⚙️ `doWhileLoops.exe` - Compiled executable of the do while loops program.
 
 ---
 
@@ -81,7 +83,7 @@ Here is a checklist mapping all the topics from the course to track what has bee
 - [x] **15. Temperature Conversion Program** 🌡️ — *Practice logic building*
 - [x] **16. Useful String Methods** 🧵 — *Manipulating text*
 - [x] **17. While Loops** 🔄 — *Looping based on a condition*
-- [ ] **18. Do While Loops** 🔄 — *Executing code at least once before testing condition*
+- [x] **18. Do While Loops** 🔄 — *Executing code at least once before testing condition*
 - [ ] **19. For Loops** 🔄 — *Looping a set number of times*
 - [ ] **20. Break & Continue** 🏃 — *Controlling loop flow*
 - [ ] **21. Nested Loops** 🔄 — *Loops within loops*
@@ -512,4 +514,24 @@ int main() {
 
     return 0;
 }
+
+### 16. Do While Loops
+A `do while` loop executes a block of code first, and then repeats the execution if the condition is true. This guarantees that the block of code runs at least once.
+
+```cpp
+#include <iostream>
+
+int main() {
+    int number;
+    
+    do {
+        std::cout << "Enter a positive number: ";
+        std::cin >> number;
+    } while (number < 0);
+
+    std::cout << "The number is: " << number;
+
+    return 0;
+}
+```
 ```
