@@ -8,8 +8,8 @@ Welcome to my personal learning repository for mastering C++! This repository co
 *Keep track of learning journey, topics mastered, and upcoming lessons.*
 
 - **Current Status**: Learning C++ Fundamentals 📝
-- **Topics Covered**: `21` / `60`
-- **Completion Rate**: **35.0%** 🟥🟧🟨🟩⬜⬜⬜⬜⬜⬜
+- **Topics Covered**: `22` / `60`
+- **Completion Rate**: **~36.7%** 🟥🟧🟨🟩⬜⬜⬜⬜⬜⬜
 
 ---
 
@@ -44,6 +44,8 @@ All C++ source files and compiled binaries are organized under the [C++Programs]
 - ⚙️ `breakContinue.exe` - Compiled executable of the break and continue program.
 - 📄 `nestedLoops.cpp` - Introduction to nested loops (loops inside other loops).
 - ⚙️ `nestedLoops.exe` - Compiled executable of the nested loops program.
+- 📄 `randomNumberGenerator.cpp` - Introduction to generating pseudo-random numbers using `rand()`.
+- ⚙️ `randomNumberGenerator.exe` - Compiled executable of the random number generator program.
 
 ---
 
@@ -95,7 +97,7 @@ Here is a checklist mapping all the topics from the course to track what has bee
 - [x] **21. Nested Loops** 🔄 — *Loops within loops*
 
 ### Phase 3: Games & Practice
-- [ ] **22. Random Number Generator** 🎲 — *Generating random integers*
+- [x] **22. Random Number Generator** 🎲 — *Generating random integers*
 - [ ] **23. Random Event Generator** 🎲 — *Simulating random choices*
 - [ ] **24. Number Guessing Game** 🔢 — *Building a text-based guesser*
 - [ ] **25. User Defined Functions** 📞 — *Writing reusable code blocks*
@@ -604,6 +606,31 @@ int main() {
         }
         std::cout << '\n';
     }
+
+    return 0;
+}
+```
+
+### 20. Pseudo-Random Number Generator
+Pseudo-random numbers are not truly random, but close. 
+- **`rand()`**: Generates a pseudo-random integer between `0` and `32767` (`RAND_MAX`).
+- **`srand(time(NULL))`**: Seeds the random number generator using the current time (requires `<ctime>` header) to generate different sequences on each run. Without seeding, the program will produce the exact same sequence of numbers every time it runs.
+
+```cpp
+#include <iostream>
+// #include <ctime> // Required for time(NULL)
+
+int main() {
+    // srand(time(NULL)); // Seeding with current time
+
+    // Simulating a 6-sided die roll
+    int num1 = (rand() % 6) + 1;
+    int num2 = (rand() % 6) + 1;
+    int num3 = (rand() % 6) + 1;
+
+    std::cout << num1 << '\n';
+    std::cout << num2 << '\n';
+    std::cout << num3 << '\n';
 
     return 0;
 }
