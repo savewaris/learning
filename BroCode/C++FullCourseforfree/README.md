@@ -8,8 +8,8 @@ Welcome to my personal learning repository for mastering C++! This repository co
 *Keep track of learning journey, topics mastered, and upcoming lessons.*
 
 - **Current Status**: Learning C++ Fundamentals 📝
-- **Topics Covered**: `18` / `60`
-- **Completion Rate**: **30.0%** 🟥🟧🟨⬜⬜⬜⬜⬜⬜⬜
+- **Topics Covered**: `19` / `60`
+- **Completion Rate**: **~31.7%** 🟥🟧🟨⬜⬜⬜⬜⬜⬜⬜
 
 ---
 
@@ -38,6 +38,8 @@ All C++ source files and compiled binaries are organized under the [C++Programs]
 - ⚙️ `whileLoops.exe` - Compiled executable of the while loops program.
 - 📄 `doWhileLoops.cpp` - Introduction to `do while` loops which execute a block of code at least once before testing a condition.
 - ⚙️ `doWhileLoops.exe` - Compiled executable of the do while loops program.
+- 📄 `forLoops.cpp` - Introduction to `for` loops for iterating a set number of times.
+- ⚙️ `forLoops.exe` - Compiled executable of the for loops program.
 
 ---
 
@@ -84,7 +86,7 @@ Here is a checklist mapping all the topics from the course to track what has bee
 - [x] **16. Useful String Methods** 🧵 — *Manipulating text*
 - [x] **17. While Loops** 🔄 — *Looping based on a condition*
 - [x] **18. Do While Loops** 🔄 — *Executing code at least once before testing condition*
-- [ ] **19. For Loops** 🔄 — *Looping a set number of times*
+- [x] **19. For Loops** 🔄 — *Looping a set number of times*
 - [ ] **20. Break & Continue** 🏃 — *Controlling loop flow*
 - [ ] **21. Nested Loops** 🔄 — *Loops within loops*
 
@@ -533,5 +535,23 @@ int main() {
 
     return 0;
 }
+
+### 17. For Loops
+A `for` loop executes a block of code a set number of times. It consists of three optional expressions: initialization, condition, and increment/decrement.
+
+```cpp
+#include <iostream>
+
+int main() {
+    // Counts down from 10 to 0 by 2s
+    for(int i = 10; i >= 0; i-=2){
+        std::cout << i << '\n';
+    }
+
+    std::cout << "Happy New Year!\n";
+
+    return 0;
+}
+```
 ```
 ```
