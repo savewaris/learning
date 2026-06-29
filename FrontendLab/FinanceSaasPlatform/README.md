@@ -6,12 +6,20 @@ Welcome to my personal learning repository for building a professional-grade Fin
 
 ## 📊 Project Dashboard
 
-- **Current Status**: Active Development (In Progress) ⚙️
+- **Current Status**: Active Development (In Progress - Up to 57:48) ⚙️
 - **Target Features**:
   - Secure User Authentication (Clerk)
   - Complete Expense & Income Tracking
   - Real-time Webhooks (Svix)
   - Full-Stack architecture with decoupled Frontend & Backend
+
+### 📈 Progress Log (Milestone: 57:48)
+- **Status**: Completed Clerk Authentication Setup & Webhook Verification Layer.
+- **Key Achievements**:
+  - 🌐 **Frontend Integration**: Integrated `@clerk/nextjs` (v7) inside a Next.js 16 & React 19 application. Implemented custom `/login` and `/sign-up` pages using Clerk's `<SignIn />` and `<SignUp />` components.
+  - 🛡️ **Backend Verification**: Created a custom `verifyClerkWebhook` middleware using `svix` in Express 5 to verify Clerk's headers (`svix-id`, `svix-timestamp`, `svix-signature`).
+  - ⚡ **Webhook Controller**: Set up `/webhooks/register` route and `clerkWebhook` controller in Express to handle incoming `user.created` events.
+  - 🗄️ **Database Connectivity**: Connected Express to MongoDB using Mongoose.
 
 ---
 

@@ -13,7 +13,7 @@ Below is the directory structure mapping out the courses and projects currently 
 | Path | Course / Project | Tech Stack | Progress / Status |
 | :--- | :--- | :--- | :--- |
 | [BroCode/C++FullCourseforfree](file:///d:/save/coding/learning/BroCode/C++FullCourseforfree) | **C++ Full Course for Beginners** (Bro Code) | `C++`, `g++ (MinGW)` | 22 / 60 Topics Covered (~36.7%) |
-| [FrontendLab/FinanceSaasPlatform](file:///d:/save/coding/learning/FrontendLab/FinanceSaasPlatform) | **Finance SaaS Expense Tracker** | `Next.js 16`, `React 19`, `TailwindCSS 4`, `Clerk Auth`, `Express 5`, `MongoDB` | Active Development (In Progress) |
+| [FrontendLab/FinanceSaasPlatform](file:///d:/save/coding/learning/FrontendLab/FinanceSaasPlatform) | **Finance SaaS Expense Tracker** | `Next.js 16`, `React 19`, `TailwindCSS 4`, `Clerk Auth`, `Express 5`, `MongoDB` | In Progress (Milestone: 57:48 - Clerk Auth & Webhooks) |
 | [freeCodeCamp.org/AngularForBeginnersCourse](file:///d:/save/coding/learning/freeCodeCamp.org/AngularForBeginnersCourse) | **Angular for Beginners Course** (freeCodeCamp) | `Angular`, `TypeScript` | Learning TypeScript Basics (In Progress) |
 | [freeCodeCamp.org/GoProgramming](file:///d:/save/coding/learning/freeCodeCamp.org/GoProgramming) | **Go Programming Course** (freeCodeCamp) | `Go` | Setup Pending (Not Started) |
 | [ProgrammingWithMosh/JavaScriptCourseForBeginners](file:///d:/save/coding/learning/ProgrammingWithMosh/JavaScriptCourseForBeginners) | **JS Basics: My First Code** (Mosh) | `JavaScript (ES6)`, `HTML5` | Fundamentals Completed |
@@ -35,6 +35,7 @@ Below is the directory structure mapping out the courses and projects currently 
   - **Frontend:** Next.js 16, React 19, TailwindCSS v4, Clerk Auth (Next.js SDK)
   - **Backend:** Node.js, Express v5, MongoDB via Mongoose, Clerk Express SDK, Svix (for secure webhook events)
   - **Language:** TypeScript (frontend & backend compilation)
+- **Core Concepts Covered:** Next.js 16 + React 19 project structure, custom login/signup pages with Clerk, Express 5 backend setup, Mongoose & MongoDB Atlas connectivity, secure Clerk Webhook signature verification via `svix`, decoupled frontend & backend routing.
 - **Reference:** [Finance SaaS README](file:///d:/save/coding/learning/FrontendLab/FinanceSaasPlatform/README.md) & [Expense Tracker Code](file:///d:/save/coding/learning/FrontendLab/FinanceSaasPlatform/fl-expense-tracker)
 
 ### 3. 🅰️ Angular for Beginners Course
